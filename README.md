@@ -43,12 +43,12 @@ python3 run_csp.py sudoku_medium.csp --solver mrv
 python3 run_csp.py sudoku_9x9_hard.csp --solver mrv
 ```
 Problem Instances
-The repository includes several Sudoku puzzle files to demonstrate and test the solver's capabilities:
+The repository includes several Sudoku puzzles:
 
-4x4 Puzzles: sudoku_4x4_easy.csp, sudoku_4x4_medium.csp, sudoku_4x4_hard.csp
+4x4 Puzzles: sudoku_easy.csp, sudoku_medium.csp, sudoku_hard.csp
 
-These are small-scale puzzles, solvable by both the baseline and MRV solvers.
+These are small-scale puzzles.
 
 9x9 Puzzles: sudoku_9x9_easy.csp, sudoku_9x9_medium.csp, sudoku_9x9_hard.csp
 
-These are standard, full-sized Sudoku puzzles. The hard version serves as an excellent test case to highlight the dramatic performance improvement gained from the MRV heuristic.
+These are standard, full-sized Sudoku puzzles.
